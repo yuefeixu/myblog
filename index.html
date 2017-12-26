@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>康怿的个人小站</title>
+    <!--<base target="_blank" />-->
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/完美运动框架.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jQuery.js"></script>
+</head>
+<body>
+<div class="top">
+    <div>
+    <h1>康怿的生活小站<span>本站点尚未部署完毕，上架仅做测试。欢迎提交BUG</span></h1>
+    <ul>
+        <!--<span>本站点尚未部署完毕，上架仅做测试。欢迎提交BUG</span>-->
+        <li><a href="#" id="suiJi">随记</a></li>
+        <li><a href="#" id="zhaoPian">照片</a></li>
+        <li><a href="#" id="xinQing">心情</a></li>
+        <li>
+            <!--这里是初学JS的时候使用的行内JS引用-->
+            <a href="#" onmouseover="toDep()"onmouseout="outDep()">登陆</a>
+            <span id="span1">开发中！</span>
+        </li>
+        <!--<li><input type="button" value="换肤"></li>-->
+    </ul>
+    </div>
+</div>
+<!--开始照片部分-->
+<div class="zp">
+    <!--照片小墙-->
+    <ul class="nav">
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+        <li><img src="images/ky11.png" alt=""></li>
+    </ul>
+    <!--<div class="ad" >-->
+        <!--<img src="images/yanYe11.png" alt="" id="ad1">-->
+        <!--&lt;!&ndash;<a href="javascript:goLeft()"><span class="left"><</span></a>&ndash;&gt;-->
+        <!--&lt;!&ndash;<a href="javascript:chanGe()"><span class="right">></span></a>&ndash;&gt;-->
+    <!--</div>-->
+    <ul class="ad" id="ad1">
+        <li><img src="images/yanYe11.png" alt=""></li>
+        <li><img src="images/ad2.png" alt=""></li>
+        <li><img src="images/ad3.png" alt=""></li>
+        <li><img src="images/ad4.png" alt=""></li>
+    </ul>
+    <ol class="choose" id="ol1">
+        <li class="activeli"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+  <div class="day1" id="day1">
+      <ul id="ul1">
+            <li class="active">随记</li>
+            <li>心情</li>
+            <li>连载</li>
+      </ul>
+      <div style="display: block" >
+          <ul>
+              <li><a href="suiji1.html" target="_blank">长辈们的评价</a></li>
+              <li><a href="suiji2.html" target="_blank">一个人的夜</a></li>
+              <li><a href="suiji3.html" target="_blank">后面的远光车</a></li>
+              <li><a href="javascript:" target="_blank">待定</a></li>
+              <li><a href="javascript:" target="_blank">待定</a></li>
+          </ul>
+      </div>
+      <div>
+          <ul>
+              <li><a href="javascript:" target="_blank">心情心情心情心情心情心情心情心情</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文字文字文字文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字字文字文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文字文字文字文字</a></li>
+          </ul>
+      </div>
+      <div>
+          <ul>
+              <li><a href="javascript:" target="_blank">连载连载连载连载连载连载连载连载连载</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文字文字文字文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字字文字文字</a></li>
+              <li><a href="javascript:" target="_blank">文字文字文字文字文字文字文字</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="day2" id="day2">
+        <ul id="ul2">
+            <li class="active">照片</li>
+            <li>视频</li>
+        </ul>
+        <div style="display: block">
+            <ul id="oUlpic">
+                <li><img src="images/zp1.jpg" alt=""></li>
+                <li><img src="images/zp2.jpg" alt=""></li>
+                <li><img src="images/zp3.jpg" alt=""></li>
+                <li><img src="images/zp4.jpg" alt=""></li>
+                <li><img src="images/zp4.jpg" alt=""></li>
+                <li><img src="images/zp4.jpg" alt=""></li>
+                <li><img src="images/zp4.jpg" alt=""></li>
+                <li><img src="images/zp4.jpg" alt=""></li>
+            </ul>
+            <span class="scroll" id="span_scr">
+                <span id="span_son"></span>
+            </span>
+        </div>
+        <div>
+            <ul class="video" id="video">
+                <li>
+                    <img src="images/video1.png" alt="">
+                    <a href="https://www.bilibili.com/video/av7026693/">
+                        <div>
+                        <img src="images/nb-pro-video-ico-s.png" alt="">
+                            <p>流星</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                   <img src="images/video2.png" alt="">
+                    <a href="https://www.bilibili.com/video/av5677147/">  <div>
+                        <img src="images/nb-pro-video-ico-s.png" alt="">
+                        <p>It's you</p>
+                    </div></a>
+                </li>
+                <li>
+                   <img src="images/video3.png" alt="">
+                    <a href="https://www.bilibili.com/video/av3176301/"> <div>
+                        <img src="images/nb-pro-video-ico-s.png" alt="">
+                        <p>遇见</p>
+                    </div></a>
+                </li>
+                <li>
+                   <img src="images/video4.png" alt="">
+                    <a href="https://www.bilibili.com/video/av5514906/"> <div>
+                        <img src="images/nb-pro-video-ico-s.png" alt="">
+                        <p>魔法少女小圆</p>
+                    </div></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!--待加入：10.6返回顶部-->
+    <!--10.2侧边分享栏-->
+
+
+    <!--<div class="gun">-->
+        <!--<ul>-->
+            <!--<li><img src="images/yl1.png" alt=""></li>-->
+            <!--<li><img src="images/yl2.png" alt=""></li>-->
+            <!--<li><img src="images/yl3.png" alt=""></li>-->
+            <!--<li><img src="images/yl4.png" alt=""></li>-->
+            <!--<li><img src="images/yl5.png" alt=""></li>-->
+            <!--<li><img src="images/yl6.png" alt=""></li>-->
+            <!--<li><img src="images/yl1.png" alt=""></li>-->
+            <!--<li><img src="images/yl2.png" alt=""></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+
+    <!--云层开始-->
+
+    <!--云层结束-->
+
+</div>
+<div class="message">
+    <ul class="cloud">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="messageBoard">
+        <ul>
+            <li>
+                <ul id="message_ul"></ul>
+            </li>
+            <li>
+                <p class="pMess">留言区</p>
+            </li>
+            <li>
+                <textarea name="" id="message_txt" cols="40" rows="10"></textarea>
+            </li>
+            <li>
+                <input type="button" value="发布留言" id="message_btn">
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer_info">
+        <p>个人前端测试站点</p>
+        <p>欢迎在留言区提出优化建议、纠错BUG</p>
+    </div>
+</div>
+</body>
+</html>
