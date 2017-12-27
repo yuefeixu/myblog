@@ -448,6 +448,7 @@ body{
     top: 0;
     list-style: none;
 }
+/*
 .message .cloud li:nth-child(1){
     background:  url(images/cloud_one.png) 0 0 repeat;
     animation:one 30s linear 0s infinite alternate;
@@ -496,7 +497,7 @@ body{
 
 }
 
-
+*/
 /*开始底部留言板*/
 .message .messageBoard{
     position: absolute;
